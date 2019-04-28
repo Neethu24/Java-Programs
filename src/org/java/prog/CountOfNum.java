@@ -1,0 +1,18 @@
+package org.java.prog;
+
+import java.util.Scanner;
+
+public class CountOfNum {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the number : ");
+	int num = sc.nextInt();
+	int count=0,j;
+	while(num!=0){
+		j=num%10;
+		count++;
+		num=num/10;
+	}
+	System.out.println(count);
+}
+}

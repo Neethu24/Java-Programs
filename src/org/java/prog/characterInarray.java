@@ -1,5 +1,6 @@
 package org.java.prog;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class characterInarray {
@@ -21,24 +22,18 @@ public class characterInarray {
 		}
 		System.out.println("LowerCase:");
 		char[] lc = m.toCharArray();
-		for (char c : lc) {
-			System.out.println(c);
-		}
+			System.out.println(lc);
 		System.out.println("UpperCase:");
 		char[] uc = n.toCharArray();
-		for (char c : uc) {
-			System.out.println(c);
-		}
+			System.out.println(uc);
 		System.out.println("Digit:");
 		char[] d = o.toCharArray();
-		for (char c : d) {
-			System.out.println(c);
-		}
+			System.out.println(d);
 		System.out.println("SpecialChar:");
 		char[] sc = p.toCharArray();
-		for (char c : sc) {
-			System.out.println(c);
-		}
+			System.out.println(sc);
 
 	}
+	
+	
 }
